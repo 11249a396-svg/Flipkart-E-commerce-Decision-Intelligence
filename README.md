@@ -1,6 +1,6 @@
-Domain: E-commerce
-
 # Flipkart E-commerce Decision Intelligence
+
+**Domain:** E-commerce
 
 An AI and Data Science capstone project focused on e-commerce customer analytics, churn prediction, customer segmentation, model evaluation, and neural network architecture analysis.
 
@@ -14,6 +14,38 @@ The project is divided into four parts:
 - Part 2: Classification and Model Evaluation
 - Part 3: Clustering and Dimensionality Reduction
 - Part 4: Model Selection and Neural Network Architecture
+
+## Project Structure
+
+```text
+Flipkart-E-commerce-Decision-Intelligence/
+│
+├── data/
+│   └── records.csv
+│
+├── outputs/
+│   ├── part1_results.txt
+│   ├── part2_knn_cv.csv
+│   ├── part2_results.txt
+│   ├── part2_thresholds.csv
+│   ├── part3_hierarchical.csv
+│   ├── part3_results.txt
+│   ├── part3_segments.csv
+│   ├── part4_adaboost.csv
+│   ├── part4_architecture.csv
+│   ├── part4_results.txt
+│   ├── part4_splits.csv
+│   └── part4_voting.csv
+│
+├── generate_data.py
+├── common.py
+├── part1.py
+├── part2.py
+├── part3.py
+├── part4.py
+├── requirements.txt
+└── README.md
+```
 
 ## How to Run
 
@@ -35,17 +67,24 @@ cd Flipkart-E-commerce-Decision-Intelligence
 pip install -r requirements.txt
 ```
 
-### 4. Run the Python scripts in the following order
+### 4. Generate the dataset
 
 ```bash
-python generated_data.py
-python part-01.py
+python generate_data.py
+```
+
+The dataset is saved as `data/records.csv`.
+
+### 5. Run the Python scripts in the following order
+
+```bash
+python part1.py
 python part2.py
 python part3.py
 python part4.py
 ```
 
-The scripts generate the dataset and save their respective result files in the repository directory.
+The result files are saved in the `outputs/` directory.
 
 ## Part 1 Findings
 
