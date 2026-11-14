@@ -1,6 +1,5 @@
-# Flipkart E-commerce Decision Intelligence
-
 **Domain:** E-commerce
+# Flipkart E-commerce Decision Intelligence
 
 An AI and Data Science capstone project focused on e-commerce customer analytics, churn prediction, customer segmentation, model evaluation, and neural network architecture analysis.
 
