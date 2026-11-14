@@ -1,5 +1,5 @@
 """Synthetic records for the capstone (all values are invented; no real company data).
-Run once from the repository root:  python generated_data.py
+Run once from the repository root:  python generate_data.py
 It writes data/records.csv and prints:  <rows> <columns> <positive_count> <md5 of the file>
 Do not edit anything below the line marked NUMERIC CORE: every number in the brief was
 measured on this exact output."""
